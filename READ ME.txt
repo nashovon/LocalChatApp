@@ -1,0 +1,44 @@
+Local Chat App
+---------------------
+Developed By - Neamul Ahasan Shovon - 2014331020
+	       Tanvir Alam Nibir    - 2014331057
+----------------------
+Overview - 
+
+Language used -java
+Protocol - TCP
+
+-----------------------
+How To Use -
+
+prerequisite - Java Development Kit installed.
+
+
+1.Go To App->Server->dist->Run Golpo.jar. Click start server.The server should be loaded.
+
+2.Go To App->Client->dist->Run Client.jar. 
+Place server address , username , port (Shown in server app) in appropiate text field and click coonect.
+It should be connected to server.Same Rule applies for every client.
+
+3.Start chit chat.
+
+---------------------------
+Basic features-
+
+1.When the server system is loaded, it initiates the required communication setup
+so that all client system can join it.
+
+2. When the client system is loaded, an option to provide the IP address/port number of
+the chat server and the name of joining user.
+
+------------------------------
+Extra feature-
+
+1.Messages are encrypted(AES encryption method used).
+
+
+---------------------------------
+Contribution-
+
+1.Server and Client (Nibir + Shovon together )
+2.Encryption (Shovon)
